@@ -153,6 +153,7 @@ h4{
 button{
 	padding:3% 5% 3% 5%;
 	background-color:white;
+	border: 1px solid black;
 }
 
 .middle-content{
@@ -234,7 +235,9 @@ p{
 		font-size: 1.4rem;
 		line-height: 2.6;
 	}
-	
+	h5{
+		font-size:1.4rem;
+	}
 
 	@media(max-width:500px){
 		.home-header div {
@@ -291,7 +294,7 @@ p{
 
 .middle-content img{
 	width: 555px;
-height: 300px;
+	height: 300px;
 	margin-left:-40%;
 }
 .villas{
@@ -312,10 +315,12 @@ height: 300px;
 	width:70%;
 	text-align:center;
 }
+
 p{
-	font-size: 20px;
+font-size: 1.6rem;
 margin: 5% 0 5% 0%;
 width: 80%;
+
 }
 footer{
 	flex-direction: column;
@@ -323,38 +328,28 @@ footer{
 }
 .form{
 	margin-left: -5px;
-margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 .form input{
 	padding:7px 100px 7px 5px;
 	margin:5% 0;
 }
-.New{
-	
-	margin: 0 -200px 15px 15%;
-	
+.New{	
+	margin: 0 -200px 15px 15%;	
 }
 
 .Flo{
-	
 	margin: 0 -200px 15px 15%;
 }
 
 .Cali{
-	
 	margin: 0 -100px 15px 15%;
 	}
-	.NY{
-		font-weight: bold;
+.NY, .FL, .CA{
+	font-weight: bold;
 		}
-		.FL{
-			font-weight: bold;
-		}
-		.CA{
-			font-weight: bold;
-        }
-        
+		
 .maincontent{
     flex-direction: column;
 }
@@ -366,12 +361,10 @@ input[type=submit]{
 .maincontactform{
     align-self: center;    
     width: 100%;
-    padding: 5%;
-    white-space: nowrap;
-}
+	padding: 5%;
+	padding-left: 8%;
+	white-space: nowrap;
 
-.maincontactform h4{
-padding-left: 8%;
 }
 
 .CNY{
