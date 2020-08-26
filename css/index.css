@@ -1,1 +1,612 @@
 /* Should be empty until you compile your LESS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ 
+	
+body {
+    line-height: 1;
+    background: #ffffff;
+    color: #222222;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Home page */
+
+
+/* Nav Menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+
+/* Home page */
+
+
+
+/* Services Page */
+
+
+
+/* Contact Page */ 
+
+h1{
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+    padding-top: 145px;
+    padding-left: 5%;
+    line-height: 24px;
+}
+.maincontactform h2{
+    font-size: 28px;
+    font-weight: bold;
+    color:#222222;
+}
+.contactlocation h2{
+    font-size: 28px;
+    font-weight: bold;
+    color:#222222;
+}
+.contactlocation h3{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.maincontactform h4{
+    font-size: 12px;
+    color: gray;
+}
+
+
+<<<<<<< HEAD
+=======
+
+*{
+	box-sizing:border-box;
+}
+
+
+/* CSS For service page*/ 
+
+
+.intro{
+	font-size: 1.5rem;
+	line-height: 1.4;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 1%
+	
+}
+
+.servicehead {
+	border: 10px solid red;
+	font-size: 1.5rem;
+}
+.servicenav{
+	font-size: 1.5rem;
+}
+
+.servicetabs :hover{
+	background-color: blue;
+	color:white;
+	
+}
+
+.tabsection{
+	border: 5px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.servicetabs{
+	margin: 0 auto;
+}
+
+.constinfo, .preinfo, .build, .designinfo{
+	border: 5px dotted purple;
+	display:flex;
+	padding: 3%;
+}
+
+.maincontent h2{
+	font-size:28px;
+    width: 40%;
+    padding-bottom: 5%;
+}
+
+.build p, .designinfo p, .constinfo p, .preinfo p{
+	border: 5px solid green;
+	float: left;
+	margin-top: 3%;
+	line-height: 1.3;
+	font-size: 1.6rem
+
+}
+
+.servicepic{
+	border: 3px dotted orange;
+}
+
+.servicefoot{
+	border: 10px solid pink;
+}
+
+>>>>>>> 5d2a2646e8ba5bc3bf8add4f4db6a70e6be33253
+form{
+    display: flex;
+    flex-direction:column;
+}
+
+form label{
+    padding-top: 6%;
+    padding-bottom: 1%;
+    font-size: 16px;
+}
+
+
+.headerimage{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/contact/contact-jumbotron.png);
+    width: 100%;
+    height: 200px;
+    opacity: 100%;
+    alt: "Skyscrapers from the bottom looking up.";
+}
+
+.maincontent{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.maincontent p{
+    margin: 0px;
+    margin-top: 2%;
+    font-weight: normal;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 25%;
+    padding-right: 5%;
+    white-space: nowrap;
+}
+
+.maincontactform h4{
+    padding-top: 1%;
+    white-space: nowrap;
+}
+
+.contactlocation{
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.bordered{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b1b1b1;
+    border-width: 1px;
+}
+
+input[type=submit]{
+    background: white;
+    border-style: solid;
+    border-color: #222222;
+    border-width: 1px;
+    width: 125px;
+    height: 45px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #222222;
+    border-radius: 0px;
+}
+
+textarea{
+    overflow: hidden;
+}
+
+.radiodivico{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contactlocation{
+    width: 20%;
+    padding-left: 5%;
+}
+.contactlocation p{
+    font-size: 16px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
+.contactlocation h3{
+    font-weight: bold;
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
+
+
+/* Nav Menu */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+  
+/* Style navigation menu links */
+.topnav a {
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+/* Style the hamburger menu */
+.topnav a.icon {
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #9ea9b3;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .intro{
+	  display:flex;
+	  margin:0 0 10% 20%;
+  }
+  .info1{
+	  
+	  width:40%;
+  }
+  .info2{
+	
+	width:40%;
+}
+  .work{
+	  display:flex;
+	  margin:0 0 10% 20%;
+  }
+  .home-header div{
+	  
+	  margin-bottom:5%;
+	overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/home/home-jumbotron.png);
+    width: 100%;
+    height: 800px;
+    opacity: 100%;
+    alt: "Picture of building with build offs for looks.";
+	 
+  }
+
+  .home-header h1{
+	   margin: 25% 0 -30% 5%; 
+	 font-size:500%;
+	color:white;
+  }
+  
+h4{
+	margin-bottom:5%;
+	font-size:200%;
+}
+
+button{
+	padding:3% 5% 3% 5%;
+background-color:white;
+}
+
+
+.middle-content{
+	margin-left:20%;
+}
+p{
+	font-size:20px;
+	margin:5% 0 5% 20%;
+	width:37%;
+	
+	
+}
+.one{
+	width:100%;
+	margin-left:0%;
+}
+.two{
+	width:100%;
+	margin-left:0%;	
+}
+
+	.villas{
+		padding: 2% 1% 2% 1%;
+		background:grey;
+	}
+	.outskirts{
+		padding: 2% 1% 2% 1%;
+		background:grey;
+	}
+	.blocks{
+		padding: 2% 1% 2% 1%;
+		background:grey;
+	}
+
+	footer{
+		color:white;
+		justify-content: space-evenly;
+		display:flex;
+		padding: 5% 0 0 0;
+		background:grey;
+	}
+	
+	.form{
+		margin-left: -100px;
+	}
+.New{
+	margin: 0 -200px 5% 1%;
+	
+}
+
+.Flo{
+	margin: 0 -200px 5% 15%;
+}
+
+.Cali{
+	margin: 0 -100px 5% 15%;
+	}
+.NY{
+font-weight: bold;
+}
+.FL{
+	font-weight: bold;
+}
+.CA{
+	font-weight: bold;
+}
+	form input{
+		border-radius:5%;
+		padding:2% 2% 2% 2%;
+	}
+	.copy{
+		color:white;
+		background:grey;
+		text-align: center;
+	}
+	
+
+
+	@media(max-width:500px){
+		.home-header div {
+			margin-bottom: 5%;
+			overflow: hidden;
+			background-size: cover;
+			background-position: center;
+			background-image: url(/img/home/home-mobile-jumbotron.png);
+			width: 100%;
+			height: 500px;
+			opacity: 100%;
+		}
+
+
+		.home-header h1{
+		margin-top:20%;	
+		margin-bottom:-40%;
+		font-size: 400%;
+	}
+	
+
+	.intro{
+		flex-direction: column-reverse;	
+	} 
+	.intro img{
+		margin-right:100%;
+		margin-left:-30px;
+		width:90%;
+	}
+	h4{
+		width:400%;
+		font-size:200%;
+		margin-left: -30px;
+	}
+	.one{
+		width:250%;
+		margin-left:-20%;
+	}
+	button{
+		width:250%;
+		margin-left:-30%;
+	}
+	.work{
+		flex-direction:column;
+	}
+	.work img{
+		margin-right:100%;
+		margin-left:-30px;
+		width:90%;
+	}
+	.two{
+		width:250%;
+		margin-left:-20%;
+	}
+
+.middle-content img{
+	width: 555px;
+height: 300px;
+	margin-left:-40%;
+}
+.villas{
+	margin-left: -5%;
+	padding:10% 10% ;
+	width:70%;
+	text-align:center;
+}
+.outskirts{
+	margin-left: -5%;
+	padding:10% 10% ;
+	width:70%;
+	text-align:center;
+}
+.blocks{
+	margin-left: -5%;
+	padding:10% 10% ;
+	width:70%;
+	text-align:center;
+}
+p{
+	font-size: 20px;
+margin: 5% 0 5% 0%;
+width: 80%;
+}
+footer{
+	flex-direction: column;
+	padding-left:20%;
+}
+.form{
+	margin-left: -5px;
+margin-bottom: 15px;
+}
+
+.form input{
+	padding:7px 100px 7px 5px;
+	margin:5% 0;
+}
+.New{
+	
+	margin: 0 -200px 15px 15%;
+	
+}
+
+.Flo{
+	
+	margin: 0 -200px 15px 15%;
+}
+
+.Cali{
+	
+	margin: 0 -100px 15px 15%;
+	}
+	.NY{
+		font-weight: bold;
+		}
+		.FL{
+			font-weight: bold;
+		}
+		.CA{
+			font-weight: bold;
+        }
+        
+.maincontent{
+    flex-direction: column;
+}
+
+input[type=submit]{
+    width: 100%;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 100%;
+    padding: 5%;
+    white-space: nowrap;
+}
+
+.maincontactform h4{
+padding-left: 8%;
+}
+
+.CNY{
+    padding-top: 50%;
+}
+
+}
+
+@media(max-width:800px){
+
+    .maincontent{
+        flex-direction: column;
+    }
+    
+    input[type=submit]{
+        width: 100%;
+    }
+    
+    .maincontactform{
+        align-self: center;    
+        width: 100%;
+        padding: 3%;
+        white-space: nowrap;
+    }
+    
+    .CNY{
+        padding-top: 25%;
+    }
+
+
+}
