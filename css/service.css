@@ -59,7 +59,7 @@ html{
 .servicetopnav {
     overflow: hidden;
     background-color: #333;
-  position: relative;
+    position: relative;
 
 }
  .headerimge1{
@@ -84,7 +84,8 @@ html{
     padding: 14px 16px;
     text-decoration: none;
     font-size: 1.7rem;
-	  display: block;
+      display: block;
+      
   }
 
 /* Style the hamburger menu */
@@ -105,28 +106,30 @@ html{
     background-color: #9ea9b3;
     color: #FFFFFF;
     font-size: 2.4rem;
-    font-weight: bolder;
+    font-weight: bold;
+
   }
 
-  .servicesintro{
+.servicesintro{
+    padding-top:3%;
 	font-size: 1.6rem;
   line-height: 2.4rem;
-  margin-left:5%;
-  margin-right: 5%;
-	border: solid pink 10px;
+  margin: 0 auto;
+  width: 75%;
 }
 
 h1{
-  font-size: 6.5rem;
-  color:white;
-  margin-top:9%;
-  font-weight: bolder;
+  font-size: 6.4rem;
+  color: #FFFFFF;
+  margin-top:7%;
+  margin-left: 5%;
+  font-weight: bold;
+  line-height:7.5rem;
 }
 
 .worko-tabs {
     margin: 20px;
     width: 80%;
-    border: solid green 10px;
     margin: 0 auto;
     padding-bottom: 5%;
 }
@@ -151,37 +154,35 @@ h1{
     max-height: 40px;
   }
 
-	
 	 .panel {
       padding: 2rem;
       min-height: 20rem;
       display: none;
       width: 100%;
       flex-basis: auto;
-		  border: 10px solid blue;
     }
     
     .panelcontent{
       display:flex;
-      border: 10px solid grey;
       padding-top: 0%;
+      
     }
 
     .info{
       margin: 0 auto;
       padding-top:5%;
-     font-size:1.6rem;
-   
+      font-size:1.6rem;
+      line-height: 2.4rem;
      
+    
     }
 	  
-	  h3{
-		font-size: 2rem;
-		color:black;
+	h3{
+    font-size: 2.8rem;
+    font-weight: bold;
+	color:#222222;
     line-height: 1px;
-    border: 10px solid red;
-    margin-bottom: 6%;
-   
+    margin-bottom: 4%;
 	}
     
     .tab {
@@ -194,7 +195,7 @@ h1{
     color: #FFF;
 		}
 		
-     
+   
 #tab-one:checked ~ .tabs #tab-one-label,
 #tab-two:checked ~ .tabs #tab-two-label,
 #tab-three:checked ~ .tabs #tab-three-label,
@@ -215,15 +216,15 @@ footer{
     justify-content: space-evenly;
     display:flex;
     padding: 5% 0 0 0;
-    background:grey;
+    background: #828282;
 }
 
 .form{
     margin-left: -100px;
 }
+
 .New{
 margin: 0 -200px 5% 1%;
-
 }
 
 .Flo{
@@ -233,23 +234,28 @@ margin: 0 -200px 5% 15%;
 .Cali{
 margin: 0 -100px 5% 15%;
 }
-.NY{
-font-weight: bold;
+
+.form, .NY, .FL, .CA{
+font-weight: regular;
+font-size: 2rem;
+line-height:2.4rem;
 }
-.FL{
-font-weight: bold;
+
+.address{
+    font-size: 1.4rem;
+    line-height:2.6rem;
 }
-.CA{
-font-weight: bold;
-}
+
 form input{
     border-radius:5%;
     padding:2% 2% 2% 2%;
 }
 .copy{
-    color:white;
+    color:#FFFFFF;
     background:grey;
     text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.6;
 }
 
 
@@ -292,31 +298,15 @@ margin-bottom: 15px;
 	padding:7px 100px 7px 5px;
 	margin:5% 0;
 }
-.New{
-	
-	margin: 0 -200px 15px 15%;
-	
-}
 
-.Flo{
-	
+.New, .Flo, .Cal{
 	margin: 0 -200px 15px 15%;
 }
 
-.Cali{
-	
-	margin: 0 -100px 15px 15%;
-	}
-	.NY{
-		font-weight: bold;
-		}
-		.FL{
-			font-weight: bold;
-		}
-		.CA{
-			font-weight: bold;
-        }
-        
+.NY, .FL, .CA{
+        font-weight: bold;
+}
+		 
 .maincontent{
     flex-direction: column;
 }
