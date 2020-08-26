@@ -211,19 +211,47 @@ h1{
 }
 
 footer{
-    justify-content: space-around;
+    color:white;
+    justify-content: space-evenly;
     display:flex;
-    padding:2%;
-    background:#828282;
-    font-size: 1.6rem;
+    padding: 5% 0 0 0;
+    background:grey;
+}
+
+.form{
+    margin-left: -100px;
+}
+.New{
+margin: 0 -200px 5% 1%;
+
+}
+
+.Flo{
+margin: 0 -200px 5% 15%;
+}
+
+.Cali{
+margin: 0 -100px 5% 15%;
+}
+.NY{
+font-weight: bold;
+}
+.FL{
+font-weight: bold;
+}
+.CA{
+font-weight: bold;
 }
 form input{
     border-radius:5%;
-    padding:2% 30% 2% 2%;
+    padding:2% 2% 2% 2%;
 }
 .copy{
+    color:white;
+    background:grey;
     text-align: center;
 }
+
 
 @media(max-width:500px){
   .home-header div {
@@ -251,4 +279,71 @@ form input{
   margin-left:-30px;
   width:90%;
 }
+footer{
+	flex-direction: column;
+	padding-left:20%;
 }
+.form{
+	margin-left: -5px;
+margin-bottom: 15px;
+}
+
+.form input{
+	padding:7px 100px 7px 5px;
+	margin:5% 0;
+}
+.New{
+	
+	margin: 0 -200px 15px 15%;
+	
+}
+
+.Flo{
+	
+	margin: 0 -200px 15px 15%;
+}
+
+.Cali{
+	
+	margin: 0 -100px 15px 15%;
+	}
+	.NY{
+		font-weight: bold;
+		}
+		.FL{
+			font-weight: bold;
+		}
+		.CA{
+			font-weight: bold;
+        }
+        
+.maincontent{
+    flex-direction: column;
+}
+
+input[type=submit]{
+    width: 100%;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 100%;
+    padding: 5%;
+    white-space: nowrap;
+}
+
+.maincontactform h4{
+padding-left: 8%;
+}
+
+.CNY{
+    padding-top: 50%;
+}
+
+}
+
+
+
+
+
+
