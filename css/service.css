@@ -145,14 +145,20 @@ h1{
   }
 
   .tab {
-    border: 3px solid black;
+    border: 1px solid black;
     margin: 3%;
     background: white;
     text-align: center;
     font-size: 1.6rem;
     flex-grow: 1;
     max-height: 40px;
+    padding: 1rem;
+    vertical-align: top;
   }
+    .tab:hover{
+  background-color: #222222;
+  color: #FFF;
+      }
 
 	 .panel {
       padding: 2rem;
@@ -164,7 +170,6 @@ h1{
     
     .panelcontent{
       display:flex;
-      padding-top: 0%;
       
     }
 
@@ -173,8 +178,6 @@ h1{
       padding-top:5%;
       font-size:1.6rem;
       line-height: 2.4rem;
-     
-    
     }
 	  
 	h3{
@@ -185,22 +188,17 @@ h1{
     margin-bottom: 4%;
 	}
     
-    .tab {
-      padding: 1rem;
-      vertical-align: top;
-	}
-  
-  .tab:hover{
-    background-color: #222222;
-    color: #FFF;
-		}
+    .picture{
+        padding-top:7%;
+    }
 		
-   
 #tab-one:checked ~ .tabs #tab-one-label,
 #tab-two:checked ~ .tabs #tab-two-label,
 #tab-three:checked ~ .tabs #tab-three-label,
 #tab-four:checked ~ .tabs #tab-four-label{
     cursor: default;
+    background-color:#5E9FB9;
+    color:white;
    
 }
 
