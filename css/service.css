@@ -113,9 +113,9 @@ html{
 .servicesintro{
     padding-top:3%;
 	font-size: 1.6rem;
-  line-height: 2.4rem;
-  margin: 0 auto;
-  width: 75%;
+    line-height: 2.4rem;
+    margin: 0 auto;
+    width: 75%;
 }
 
 h1{
@@ -132,6 +132,7 @@ h1{
     width: 80%;
     margin: 0 auto;
     padding-bottom: 5%;
+    
 }
 .state{
 	position: absolute;
@@ -167,11 +168,12 @@ h1{
       display: none;
       width: 100%;
       flex-basis: auto;
+  
     }
 
     .panelcontent{
       display:flex;
-      
+   
     }
 
     .info{
@@ -179,6 +181,8 @@ h1{
       padding-top:5%;
       font-size:1.6rem;
       line-height: 2.4rem;
+      width: 90%;
+     
     }
 	  
 	h3{
@@ -263,9 +267,9 @@ h5{
 
 @media(max-width:500px){
 
-.entire{
-    width:100%;
-}
+    html,body{
+        overflow-x: hidden;
+    }
 
   .headerimge1 {
     margin-bottom: 5%;
@@ -299,24 +303,23 @@ h5{
      flex-direction: column; 
  }
 
-
 .panelcontent{
     display:flex;
     flex-wrap: wrap;
 }
-
 
 .info h3{
     padding-bottom:4%;
     }
 
 .servicepic{
-width: 100%;
+    width: 100%;
 }
+
 
 footer{
 	flex-direction: column;
-	padding-left:20%;
+    padding-left:20%;
 }
 .form{
 	margin-left: -5px;
