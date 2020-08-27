@@ -1,1 +1,425 @@
+ /* styled here then moved to service.css 
+
 /* Should be empty until you compile your LESS */
+
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { */
+	/* margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+	
+body {
+    line-height: 1;
+    background: #ffffff;
+    color: #222222;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	box-sizing:border-box;
+  }
+  
+  html{
+	font-size:62.5%; 
+  }
+ */ 
+
+/* Nav Menu */
+/* .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  } */
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+/* .topnav #myLinks {
+    display: none;
+  } */
+
+  
+/* Style navigation menu links */
+/* .topnav a {
+    color: #FFFFFF;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.7rem;
+    display: block;
+  } */
+/* Style the hamburger menu */
+/* .topnav a.icon {
+    background: rgba(0, 0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+	top: 0;
+  }
+/* Add a grey background color on mouse-over */
+/* .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */ 
+/* Style the active link (or home/logo) */
+/* .topnav .active {
+    background-color: #9ea9b3;
+    color: #FFFFFF;
+    font-size: 2.4rem;
+	font-weight: bold;
+	
+  }
+
+  .home-header div{
+	margin-bottom:5%;
+	overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/home/home-jumbotron.png);
+    width: 100%;
+    height: 90vh;
+    opacity: 100%;
+    alt: "Picture of building";
+  }
+
+ h1{
+	font-weight: Bold;
+	font-size: 6.4rem;
+	line-height: 7.5rem;
+	padding-top:27%;
+	padding-left:5%;
+	color:#FFFFFF;
+	
+  }
+
+
+  .intro, .work{
+	  display:flex;
+	  margin:0 0 10% 20%;
+  }
+
+  .info1, .info2{
+	  width:40%;
+	  padding: 2%;
+  }
+  
+  
+h4{
+	margin-bottom:5%;
+	font-size:2.8rem;
+	font-weight:bold;
+}
+
+button{
+	padding:3% 5% 3% 5%;
+	background-color:white;
+	border: 1px solid #222222;
+}
+
+.middle-content{
+	margin-left:20%;
+	}
+
+p{ 
+	font-size:1.6rem;
+	margin:5% 0 5% 20%;
+	width:37%;
+	line-height:2.4rem;
+}
+.one, .two{
+	width:100%;
+	margin-left:0%;
+}
+
+
+.villas, .blocks{
+	padding: 2% 3% 2% 3%;
+		background:#D8D8D8;
+		width: 60%;
+		margin-left:50%;
+		font-size:2.8rem;
+		letter-spacing: .7rem;
+		font-weight: bold;
+	}
+
+	.outskirts{
+		padding: 2% 3% 2% 3%;
+		background:#D8D8D8;
+		width: 60%;
+		margin-right:70%;
+		font-size:2.8rem;
+		font-weight: bold;
+		letter-spacing: .7rem;
+	}
+
+
+	footer{
+		color:white;
+		justify-content: space-evenly;
+		display:flex;
+		padding: 5% 0 0 0;
+		background: #828282;
+	}
+	
+	.form{
+		margin-left: -100px;
+	}
+	
+	.New{
+	margin: 0 -200px 5% 1%;
+	}
+	
+	.Flo{
+	margin: 0 -200px 5% 15%;
+	}
+	
+	.Cali{
+	margin: 0 -100px 5% 15%;
+	}
+	
+	.form, .NY, .FL, .CA{
+	font-weight: regular;
+	font-size: 2rem;
+	line-height:2.4rem;
+	}
+	
+	.address, h5{
+		font-size: 1.4rem;
+		line-height:2.6rem;
+	}
+	
+	form input{
+		border-radius:5%;
+		padding:2% 2% 2% 2%;
+	}
+	.copy{
+		color:#FFFFFF;
+		background:#828282;
+		text-align: center;
+	} */
+
+
+
+	/* @media(max-width:500px){
+
+		html,body{
+			overflow-x: hidden;
+		}
+		
+		.home-header div {
+			margin-bottom: 5%;
+			overflow: hidden;
+			background-size: cover;
+			background-position: center;
+			background-image: url(/img/home/home-mobile-jumbotron.png);
+			width: 100%;
+			height: 70vh;
+			opacity: 100%;
+		}
+
+		h1{
+			font-weight: Bold;
+			font-size: 6.4rem;
+			line-height: 7.5rem;
+			padding-top:40%;
+			padding-left:5%;
+			color:#FFFFFF;
+		  }
+
+	.intro {
+		flex-direction: column-reverse;	
+	} 
+	.intro img{
+		margin-right:100%;
+		margin-left:-30px;
+		width:90%;
+		height: 50vh;
+		padding-bottom: 3%;
+		content: url(/img/home/home-mobile-img-1.png)
+	}
+	h4{
+		width:400%;
+		font-size:200%;
+		margin-left: -30px;
+	}
+	.one{
+		width:250%;
+		margin-left:-20%;
+	}
+	button{
+		width:250%;
+		margin-left:-30%;
+	}
+	.work{
+		flex-direction:column;
+	}
+	.work img{
+		margin-right:100%;
+		margin-left:-30px;
+		width:90%;
+		height: 50vh;
+		padding-bottom: 3%;
+		content: url(/img/home/home-mobile-img-2.png)
+	}
+	.two{
+		width:250%;
+		margin-left:-20%;
+	}
+
+.middle-content img{
+	width: 150%;
+	height: 60vh;
+	margin-left:-40%;
+	
+}
+
+.villa{
+	content: url(/img/home/home-mobile-villas-img.png);
+}
+
+.houses{
+	content:url(/img/home/home-mobile-outskirts-img.png)
+}
+
+.townhomes{
+	content: url(/img/home/home-mobile-the-blocks-img.png);
+}
+
+
+.villa, .houses, .townhomes{
+	width:130%;
+	margin-left:-30%;
+	height: 50vh;
+}
+
+
+.villas, .outskirts, .blocks{
+	
+	padding:10%;
+	padding-bottom: 8%;
+	margin-left: -12%;
+	padding-left: 25%;
+   padding-right: 25%;
+	text-align:center;
+	font-size: 2.6rem;
+
+}
+
+p{
+padding-top: 7%;
+font-size: 1.6rem;
+margin-left: -17%;
+width: 110%;
+
+}
+
+footer{
+	flex-direction: column;
+	padding-left:20%;
+}
+.form{
+	margin-left: -5px;
+	margin-bottom: 15px;
+}
+
+.form input{
+	padding:7px 100px 7px 5px;
+	margin:5% 0;
+}
+.New{	
+	margin: 0 -200px 15px 15%;	
+}
+
+.Flo{
+	margin: 0 -200px 15px 15%;
+}
+
+.Cali{
+	margin: 0 -100px 15px 15%;
+	}
+.NY, .FL, .CA{
+	font-weight: bold;
+		}
+		
+.maincontent{
+    flex-direction: column;
+}
+
+input[type=submit]{
+    width: 100%;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 100%;
+	padding: 5%;
+	padding-left: 8%;
+	white-space: nowrap;
+
+}
+
+.CNY{
+    padding-top: 50%;
+}
+
+} */
+
+/*@media(max-width:800px){
+
+    .maincontent{
+        flex-direction: column;
+    }
+    
+    input[type=submit]{
+        width: 100%;
+    }
+    
+    .maincontactform{
+        align-self: center;    
+        width: 100%;
+        padding: 3%;
+        white-space: nowrap;
+    }
+    
+    .CNY{
+        padding-top: 25%;
+    }
+
+
+}
+ */ 
+
