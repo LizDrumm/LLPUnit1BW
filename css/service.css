@@ -101,7 +101,6 @@ html{
     font-weight:bold;
 
   }
-  
 /* Style the active link (or home/logo) */
 .topnav .active {
     background-color: #9ea9b3;
@@ -304,7 +303,6 @@ h5{
     .panelcontent{
         display:flex;
         flex-wrap: wrap;
-      
     }
 
     .picture1, .picture2, .picture3, .picture4{
@@ -575,7 +573,7 @@ p{
         margin-left: 2%;
     }
     .form{
-        margin-left: -10%;
+        margin-left: -5%;
     }
 }
 
