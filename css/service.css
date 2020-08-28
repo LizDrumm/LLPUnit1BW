@@ -202,6 +202,7 @@ html{
 	color:#222222;
     line-height: 1px;
     margin-bottom: 4%;
+
 	}
     
     .picture1, .picture2, .picture3, .picture4{
@@ -277,6 +278,44 @@ h5{
 }
 
 /*SERVICE PAGE MEDIA QUERY*/
+@media (max-width: 800px){
+    html,body{
+        overflow-x: hidden;
+    }
+    .serviceintro{
+        flex-direction: column-reverse;	
+      } 
+      
+     .worko-tabs{
+         display:flex;
+         flex-direction: column; 
+         padding-top:1%;
+     }
+    
+     .tabs{
+         flex-direction: column; 
+     }
+    
+    .panelcontent{
+        display:flex;
+        flex-wrap: wrap;
+      
+    }
+
+    .picture1, .picture2, .picture3, .picture4{
+        margin: 0 auto;
+    }
+
+ .info, .info p
+{
+    margin: 0 auto;
+}
+
+h3{
+    margin: 0 auto;
+}
+
+}
 @media(max-width:500px){
 
     html,body{
@@ -289,6 +328,7 @@ h5{
     background-size: cover;
     background-position: center;
     background-image: url(/img/services/services-mobile-jumbotron.png);
+    alt: "Skyscraper";
     width: 100%;
     height:40vh;
     opacity: 100%;
@@ -330,16 +370,21 @@ h5{
 
 .picture1{
     content:url(/img/services/services-tab-mobile-pre-construction-img.png);
+    alt: "blueprint";
+    
 }
 
 .picture2{
     content:url(/img/services/services-tab-mobile-construction-img.png);
+    alt: "construction model";
 }
 .picture3{
     content:url(/img/services/services-tab-mobile-design-build-img.png);
+    alt: "construction team meeting";
 }
 .picture4{
     content:url(/img/services/services-tab-mobile-sustainability-img.png);
+    alt: "construction building";
 }
 
 .picture1, .picture2, .picture3, .picture4{
@@ -352,18 +397,23 @@ footer{
     padding-left:20%;
 }
 .form{
-margin-left: -5px;
-margin-bottom: 15px;
+margin-left: 10%;
+margin-bottom: 15%;
 }
 
 .form input{
-	padding:7px 100px 7px 5px;
-	margin:5% 0;
+	padding:5% 40% 5% 5%;
+    margin:5% 0;
+    
 }
 
-.New, .Flo, .Cal{
-	margin: 0 -200px 15px 15%;
+.New, .Flo{
+	margin: 0 10% 15% 15%;
 }
+
+.Cali{
+	margin: 0 10% 15% 15%;
+	}
 
 .NY, .FL, .CA{
         font-weight: bold;
@@ -462,7 +512,6 @@ p{
 	padding: 2% 3% 2% 3%;
 		background:#D8D8D8;
 		width: 60%;
-		
 		font-size:2.8rem;
 		letter-spacing: .7rem;
         font-weight: bold;  
@@ -472,7 +521,7 @@ p{
         margin-left:55%;
     }
     .blocks{   
-            margin-left:53%;
+            margin-left:50%;
         }
 
 	.outskirts{
@@ -486,6 +535,50 @@ p{
 	}
 
 /*INDEX PAGE MEDIA QUERY*/
+@media (max-width: 800px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+.intro {
+    margin-left: 6%;
+}
+
+
+.work{
+    margin-left: 7%;
+}
+
+h4{
+    margin-left: 5%;
+}
+
+.middle-content{
+    margin: 0 auto;
+}
+
+.villas, .blocks{
+    margin-left: 60%;
+}
+
+.outskirts{
+    margin-left: 8%;
+}
+
+p{ 
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: 0 auto;
+}
+.address{
+        margin-left: 2%;
+    }
+    .form{
+        margin-left: -10%;
+    }
+}
+
+
 	@media(max-width:500px){
 
 		html,body{
@@ -500,7 +593,8 @@ p{
 			background-image: url(/img/home/home-mobile-jumbotron.png);
 			width: 100%;
 			height: 70vh;
-			opacity: 100%;
+            opacity: 100%;
+            alt: "Modern Building";
 		}
 
 		.homeindex{
@@ -514,88 +608,99 @@ p{
 
 	.intro {
 		flex-direction: column-reverse;	
-	} 
+    } 
+    
 	.intro img{
-		margin-right:100%;
-		margin-left:-30px;
+		margin-left: 3%;
 		width:90%;
 		height: 50vh;
 		padding-bottom: 3%;
-		content: url(/img/home/home-mobile-img-1.png)
-	}
+        content: url(/img/home/home-mobile-img-1.png);
+        alt : "Blue print"
+    }
+    
 	h4{
-		width:400%;
-		font-size:200%;
-		margin-left: -30px;
-	}
+		width:200%;
+		font-size:2.4rem;
+		margin-left: 40%;
+    }
+
+    .info2 h4{
+        width:200%;
+		font-size:2.4rem;
+        margin-left: 60%;
+    
+    }
+    
+    .middle-content h4{
+        margin-left: 5%;
+        font-size:2.4rem;
+    }
 	.one{
-		width:250%;
-		margin-left:-20%;
+		width:200%;
+		margin-left:30%;
 	}
 	button{
-		width:250%;
-		margin-left:-30%;
+		width:200%;
+		margin-left:20%;
 	}
 	.work{
 		flex-direction:column;
 	}
 	.work img{
-		margin-right:100%;
-		margin-left:-30px;
+		margin-right: 5%;
 		width:90%;
 		height: 50vh;
 		padding-bottom: 3%;
-		content: url(/img/home/home-mobile-img-2.png)
+		padding-bottom: 3%;
+        content: url(/img/home/home-mobile-img-2.png);
+        alt: "water feature";
 	}
 	.two{
-		width:250%;
-		margin-left:-20%;
+		width:200%;
+		margin-left:30%;
 	}
 
-.middle-content img{
-	width: 150%;
-	height: 60vh;
-	margin-left:-40%;
-	
-}
+
 
 .villa{
-	content: url(/img/home/home-mobile-villas-img.png);
+    content: url(/img/home/home-mobile-villas-img.png);
+    alt : "villa";
 }
 
 .houses{
-	content:url(/img/home/home-mobile-outskirts-img.png)
+    content:url(/img/home/home-mobile-outskirts-img.png);
+    alt : "house";
 }
 
 .townhomes{
-	content: url(/img/home/home-mobile-the-blocks-img.png);
+    content: url(/img/home/home-mobile-the-blocks-img.png);
+    alt : "row of townhomes";
 }
 
 
 .villa, .houses, .townhomes{
 	width:130%;
 	margin-left:-30%;
-	height: 50vh;
+	height: 40vh;
 }
-
 
 .villas, .outskirts, .blocks{
 	
 	padding:10%;
 	padding-bottom: 8%;
-	margin-left: -12%;
+	margin-left: 4%;
 	padding-left: 25%;
-   padding-right: 25%;
+    padding-right: 25%;
 	text-align:center;
 	font-size: 2.6rem;
 
 }
 
-p{
-padding-top: 7%;
+.index {
+padding-top: 10%;
 font-size: 1.6rem;
-margin-left: -17%;
-width: 110%;
+width: 90%;
 
 }
 
