@@ -68,7 +68,8 @@ html{
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
-	display: none;
+    display: none;
+   text-align:center;
   }
   
 /* Style navigation menu links */
@@ -95,15 +96,19 @@ html{
 }*/
 
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: #9ea9b3;
     color: black;
+    font-weight:bold;
+
   }
+  
 /* Style the active link (or home/logo) */
 .topnav .active {
     background-color: #9ea9b3;
     color: #FFFFFF;
     font-size: 2.4rem;
     font-weight: bold;
+
   }
 
 
