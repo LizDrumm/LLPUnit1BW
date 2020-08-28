@@ -508,7 +508,7 @@ p{
 }
 
 
-.villas, .blocks{
+.villas, .blocks, .outskirts{
 	padding: 2% 3% 2% 3%;
 		background:#D8D8D8;
 		width: 60%;
@@ -518,21 +518,17 @@ p{
     }
     
     .villas {
-        margin-left:55%;
+        margin-left:58%;
     }
+
     .blocks{   
-            margin-left:50%;
+            margin-left:55%;
         }
 
-	.outskirts{
-		padding: 2% 3% 2% 3%;
-		background:#D8D8D8;
-		width: 60%;
-		margin-right:70%;
-		font-size:2.8rem;
-		font-weight: bold;
-		letter-spacing: .7rem;
-	}
+    .outskirts {
+        margin-right:70%;
+    }    
+
 
 /*INDEX PAGE MEDIA QUERY*/
 @media (max-width: 800px){
