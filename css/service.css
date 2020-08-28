@@ -74,7 +74,7 @@ html{
 /* Style navigation menu links */
 .topnav a {
     color: #FFFFFF;
-    padding: 14px 16px;
+    padding: 1% 2%;
     text-decoration: none;
     font-size: 1.7rem;
       display: block;
@@ -136,7 +136,7 @@ html{
 }
 
 .worko-tabs {
-    margin: 20px;
+    margin: 2%;
     width: 80%;
     margin: 0 auto;
     padding-bottom: 5%;
@@ -200,7 +200,7 @@ html{
     font-size: 2.8rem;
     font-weight: bold;
 	color:#222222;
-    line-height: 1px;
+    line-height: 1rem;
     margin-bottom: 4%;
 
 	}
@@ -235,19 +235,19 @@ footer{
 }
 
 .form{
-    margin-left: -100px;
+    margin-left: -10%;
 }
 
 .New{
-margin: 0 -200px 5% 1%;
+margin: 0 -20% 5% 1%;
 }
 
 .Flo{
-margin: 0 -200px 5% 15%;
+margin: 0 -20% 5% 15%;
 }
 
 .Cali{
-margin: 0 -100px 5% 15%;
+margin: 0 -15% 5% 15%;
 }
 
 .form, .NY, .FL, .CA{
